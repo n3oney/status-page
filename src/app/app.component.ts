@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {AuthService} from './services/auth.service';
+import {StatusService} from './services/status.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'statuspage';
+
+  constructor(public auth: AuthService, public status: StatusService) {}
 }

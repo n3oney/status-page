@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "statuspage-f1b41": {
+      "hosting": {
+        "statuspage": [
+          "statuspage-f1b41"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "statuspage-f1b41"
+  }
+}
